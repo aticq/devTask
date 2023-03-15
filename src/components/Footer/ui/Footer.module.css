@@ -1,0 +1,11 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    padding-left: 74px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    width: 57px;
+    height: 12px;
+}

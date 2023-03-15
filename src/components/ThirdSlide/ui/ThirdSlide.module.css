@@ -1,0 +1,256 @@
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(assets/images/ThirdSlide/bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.title {
+    padding-top: 170px;
+    padding-left: 353px;
+}
+
+.title h1 {
+    font-size: 95px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.title h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.title h2 {
+    margin-left: 7px;
+    font-size: 27px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.bottle {
+    height: 688px;
+    width: 233px;
+    position: absolute;
+    left: 52px;
+    top: 80px;
+    z-index: 4;
+}
+
+.bubble1 {
+    height: 35px;
+    position: absolute;
+    left: 75px;
+    top: 300px;
+    width: 34px;
+    animation: moveBubble1 2s infinite;
+}
+
+.bubble2 {
+    height: 104px;
+    position: absolute;
+    left: 200px;
+    top: 320px;
+    z-index: 3;
+    animation: moveBubble2 4s infinite;
+}
+
+.bubble3 {
+    height: 38px;
+    position: absolute;
+    left: 200px;
+    top: 75px;
+    animation: moveBubble3 6s infinite;
+}
+
+.bubble4 {
+    height: 60px;
+    position: absolute;
+    top: 593px;
+    left: 250px;
+    z-index: 2;
+    animation: moveBubble4 8s infinite;
+}
+
+.bubble5 {
+    height: 70px;
+    position: absolute;
+    top: 155px;
+    left: 184px;
+    z-index: 4;
+    animation: moveBubble5 6s infinite;
+}
+
+.bubble6 {
+    height: 65px;
+    position: absolute;
+    left: 185px;
+    top: 703px;
+    z-index: 4;
+}
+
+.bubble7 {
+    height: 34px;
+    position: absolute;
+    top: 455px;
+    left: 11px;
+    animation: moveBubble7 2s infinite;
+}
+
+.bubble8 {
+    height: 75px;
+    position: absolute;
+    left: 26px;
+    top: 555px;
+    z-index: 4;
+    animation: moveBubble8 5s infinite;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.firstMessage {
+    width: 415px;
+    height: 265px;
+    background-color: rgb(255 255 255);
+    border-radius: 40px;
+    margin-left: 225px;
+    margin-top: 80px;
+    box-shadow: 5px 8px 232px 17px rgb(157 185 198 / 39%);
+}
+
+.firstMessage h3 {
+    padding-top: 58px;
+    margin-left: 134px;
+    margin-right: 61px;
+    font-size: 22px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.firstIcon {
+    width: 63px;
+    left: 353px;
+    top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.secondMessage {
+    width: 263px;
+    height: 151px;
+    margin-top: 80px;
+    margin-left: 41px;
+    background-color: rgb(255 255 255);
+    border-radius: 40px;
+    box-shadow: 5px 8px 232px 17px rgb(157 185 198 / 39%);
+}
+
+.secondIcon {
+    width: 63px;
+    margin-left: 43px;
+    top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.secondMessage h3 {
+    padding-top: 45px;
+    margin-left: 42px;
+    margin-right: 86px;
+    font-size: 22px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.detailButton {
+    margin-top: 82px;
+    height: 82px;
+}
+
+@keyframes moveBubble1 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes moveBubble2 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes moveBubble3 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes moveBubble4 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes moveBubble5 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes moveBubble7 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes moveBubble8 {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}

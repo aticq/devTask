@@ -1,0 +1,154 @@
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(assets/images/FirstSlide/bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hello {
+    font-family: MyriadPro, serif;
+    font-size: 27px;
+    line-height: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-left: 74px;
+    padding-top: 118px;
+}
+
+.titleContainer {
+    padding-left: 74px;
+    max-width: 912px;
+}
+
+.titleContainer h1 {
+    position: relative;
+    font-family: Gilroy, serif;
+    line-height: 117px;
+    font-size: 109px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    z-index: 2;
+}
+
+.titleContainer span {
+    font-weight: bold;
+}
+
+.images {
+    position: relative;
+}
+
+.sperm {
+    position: absolute;
+    right: 0;
+    top: 175px;
+    z-index: 3;
+    animation: moveSperm 6s infinite;
+}
+
+.bakteria {
+    position: absolute;
+    top: 530px;
+    left: 35px;
+    animation: moveBakteria 4s infinite;
+}
+
+.layer4 {
+    position: absolute;
+    right: 250px;
+    top: 640px;
+}
+
+.layer5 {
+    position: absolute;
+    bottom: -100px;
+    right: 260px;
+    animation: moveLayer5 4s infinite;
+}
+
+.layer7 {
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    animation: moveLayer7 8s infinite;
+}
+
+.layer8 {
+    position: absolute;
+    top: 215px;
+    right: 80px;
+    z-index: 1;
+    animation: moveLayer8 8s infinite;
+}
+
+@keyframes moveSperm {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveBakteria {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveLayer5 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveLayer7 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveLayer8 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

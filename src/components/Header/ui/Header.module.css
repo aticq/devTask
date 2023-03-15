@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    padding-top: 27px;
+    padding-left: 74px;
+}
+
+.home_icon {
+    width: 153px;
+    height: 26px;
+    cursor: pointer;
+}
