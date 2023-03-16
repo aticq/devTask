@@ -9,8 +9,7 @@ import pinkSperm from 'assets/images/FirstSlide/pink_sperm_1.png';
 import styles from './FirstSlide.module.css';
 
 interface FirstSlideProps {
-    toTheSecondSlide?: any;
-    activeSlide?: number;
+    toTheSecondSlide?: ()=>void;
 }
 
 const FirstSlide = React.memo(
