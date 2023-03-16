@@ -1,0 +1,111 @@
+.modal {
+    position: fixed;
+    top: 126px;
+    left: 141px;
+    bottom: 74px;
+    right: 61px;
+    background-color: #fff;
+    color: #000;
+    z-index: 2;
+    overflow: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    border-radius: 40px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 50%);
+    z-index: 1;
+}
+
+.closeButton {
+    height: 33px;
+    position: absolute;
+    left: 87%;
+    top: 20%;
+    z-index: 3;
+}
+
+.firstTitle {
+    margin-left: 213px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.secondTitle {
+    margin-left: 205px;
+    text-transform: uppercase;
+    font-size: 95px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.secondTitle span {
+    font-weight: bold;
+}
+
+.container {
+    margin: 20px 120px 0 213px;
+    height: 333px;
+    color: black;
+    position: relative;
+}
+
+.textContainer {
+    font-family: MyriadPro, serif;
+    height: 90px;
+}
+
+.textContainer h3 {
+    margin-top: 17px;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.textContainer h4 {
+    font-family: Gilroy, serif;
+    color: #8cc9e8;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+
+.arrowContainer {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.pageDots {
+    display: flex;
+    align-items: center;
+}
+
+.pageDot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all 0.25s ease-in-out;
+}
+
+.pageDotActive {
+    background-color: #fc6da9;
+    border: none;
+}
+
+.arrow {
+    height: 15px;
+}
